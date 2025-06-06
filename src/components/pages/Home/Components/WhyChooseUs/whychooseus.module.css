@@ -76,6 +76,7 @@
     grid-template-columns: 100%;
   }
   .quality_content > div {
+    margin: 10px 0px;
     /* margin: 5px 0px; */
   }
   .quality_image img {

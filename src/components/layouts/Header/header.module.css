@@ -42,7 +42,7 @@
   color: var(--black);
 }
 .header_contact_info p:nth-child(1) {
-  font-weight: bold;
+  font-weight: 600;
   color: var(--black);
 }
 .header_contact_info a {

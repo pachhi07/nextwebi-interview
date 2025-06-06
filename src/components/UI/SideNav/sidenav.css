@@ -1,0 +1,69 @@
+#mysidenav {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+#sidenavphone {
+  background-color: var(--primary);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+#sidenavphone:hover {
+  background-color: var(--first);
+}
+
+#sidenavphone a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#sidenavphone svg {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* #sidenavphone:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+} */
+
+/* whatsapp { */
+
+#sidenavwhatsapp {
+  background-color: #2dd46c;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  padding: 10px;
+}
+#sidenavwhatsapp a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#sidenavwhatsapp svg {
+  margin-right: 8px;
+  font-size: 20px;
+}
+@media (max-width: 700px) {
+  .wrapper {
+    /* display: none; */
+  }
+}

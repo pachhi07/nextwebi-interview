@@ -1,0 +1,78 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+    padding-top: 30px;
+}
+.wrapper h5{
+    text-align: center;
+}
+.wrapper h5 span{
+    color: var(--secondary);
+}
+.ourteam_container {
+  /* padding-top: 30px; */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ourteam_section {
+  border-radius: 10px;
+  width: 100%;
+padding: 15px 0px;
+  background-image: url("/assets/testimonials/tetsimonials-bg.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  isolation: isolate;   
+  color: white;
+  opacity: 0.9;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.swiper_slide {
+  width: 100% !important; /* Force full width */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.slide_content {
+  max-width: 800px; /* Control content width */
+  margin: 0 auto; /* Center content */
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.swiper_slide svg {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.swiper_slide p {
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+
+.swiper_slide span {
+    color: var(--white);
+  display: block;
+  font-size: 1.2rem;
+  /* color: var(--secondary); */
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .slide_content {
+    padding: 15px;
+  }
+}

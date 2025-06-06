@@ -1,0 +1,138 @@
+.wrapper {
+  position: relative;
+}
+.header {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo img {
+  object-fit: contain;
+  max-height: 60px;
+  width: auto;
+}
+.header_sidebar {
+  display: none;
+}
+.header_contact {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header_contact ul {
+  display: flex;
+  gap: 15px;
+}
+.header_contact ul li {
+  display: flex;
+  gap: 15px;
+}
+.header_contact_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_contact_icon svg {
+  font-size: var(--step-6);
+  color: var(--primary);
+}
+.header_contact_info p {
+  color: var(--black);
+}
+.header_contact_info p:nth-child(1) {
+  font-weight: bold;
+  color: var(--black);
+}
+.header_contact_info a {
+  font-size: var(--step-0);
+  color: var(--black);
+}
+
+.menu_wrapper {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.menu {
+  background-color: var(--primary);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px 0px;
+  color: var(--white);
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.menu > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu > ul > li {
+  padding: 0px 10px;
+  font-size: var(--step-0);
+  cursor: pointer;
+}
+.menu > ul > li a{
+  color: var(--white);
+  padding: 0px 10px;
+  font-size: var(--step-0);
+  cursor: pointer;
+}
+.menu_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.menu_contact:hover {
+  background-color: var(--black);
+  color: var(--primary);
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .header_logo {
+    width: auto;
+    height: fit-content;
+  }
+  
+  .header_logo img {
+    max-height: 40px;
+  }
+  
+  .header_sidebar {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .header_sidebar svg {
+    font-size: var(--step-6);
+    color: var(--primary);
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .header_contact {
+    display: none;
+  }
+  
+  .menu_wrapper {
+    display: none;
+  }
+}

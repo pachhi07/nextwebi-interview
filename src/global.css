@@ -1,0 +1,124 @@
+/* Order */
+
+*,
+*::after,
+*::before,
+*::placeholder {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  border-collapse: separate;
+  scroll-margin-top: 170px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+img,
+svg,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+/* @link https://utopia.fyi/type/calculator?c=250,15,1.08,1500,17.5,1.08,10,8,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--8: clamp(0.5065rem, 0.4896rem + 0.1081vi, 0.5909rem);
+  --step--7: clamp(0.547rem, 0.5288rem + 0.1167vi, 0.6382rem);
+  --step--6: clamp(0.5908rem, 0.5711rem + 0.126vi, 0.6892rem);
+  --step--5: clamp(0.638rem, 0.6168rem + 0.1361vi, 0.7444rem);
+  --step--4: clamp(0.6891rem, 0.6661rem + 0.147vi, 0.8039rem);
+  --step--3: clamp(0.7442rem, 0.7194rem + 0.1588vi, 0.8683rem);
+  --step--2: clamp(0.8038rem, 0.777rem + 0.1715vi, 0.9377rem);
+  --step--1: clamp(0.8681rem, 0.8391rem + 0.1852vi, 1.0127rem);
+  --step-0: clamp(0.9375rem, 0.9063rem + 0.2vi, 1.0938rem);
+  --step-1: clamp(1.0125rem, 0.9788rem + 0.216vi, 1.1813rem);
+  --step-2: clamp(1.0935rem, 1.0571rem + 0.2333vi, 1.2758rem);
+  --step-3: clamp(1.181rem, 1.1416rem + 0.2519vi, 1.3778rem);
+  --step-4: clamp(1.2755rem, 1.2329rem + 0.2721vi, 1.488rem);
+  --step-5: clamp(1.3775rem, 1.3316rem + 0.2939vi, 1.6071rem);
+  --step-6: clamp(1.4877rem, 1.4381rem + 0.3174vi, 1.7356rem);
+  --step-7: clamp(1.6067rem, 1.5532rem + 0.3428vi, 1.8745rem);
+  --step-8: clamp(1.7352rem, 1.6774rem + 0.3702vi, 2.0245rem);
+  --step-9: clamp(1.8741rem, 1.8116rem + 0.3998vi, 2.1864rem);
+  --step-10: clamp(2.024rem, 1.9565rem + 0.4318vi, 2.3613rem);
+}
+
+:root {
+  /* primary */
+  /* --primary: #ffd808; */
+  /* --primary: #1072D4; */
+  --primary: #223c81;
+
+  /* secondary */
+  --secondary: #149bd7;
+
+  /* blue */
+  --blue: #545454;
+
+  /* service bg color */
+  --grey: #f9f9f9;
+
+  /* firsttitle-color */
+  --ash: rgb(51, 51, 51);
+
+  /* black */
+  --black: #000;
+
+  /* white */
+  --white: #ffffff;
+}
+
+.firstTitle {
+  color: var(--primary);
+  font-size: calc(var(--step-9) + var(--step--7));
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.secondTitle {
+  color: var(--primary);
+  font-size: var(--step-4);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.pTag {
+  /* color: var(--black); */
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--step--1);
+  line-height: 1.6;
+  font-weight: 400;
+}
+/* .swiper_height .swiper-slide {
+  height: auto !important;
+}
+.mission_cards_swiper .swiper-slide-shadow,
+.mission_cards_swiper .swiper-slide-shadow-cards {
+  background: none !important;
+} */

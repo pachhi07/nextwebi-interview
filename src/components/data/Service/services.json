@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Services",
+    "description": "Nextwebi, a leading web development company provides you ROI-driven, conversion-focused, customer-centric website development service to...",
+    "image": "service-1.png"
+  },
+  {
+    "id": 2,
+    "title": "IT Consulting",
+   "description": "Nextwebi, a leading web development company provides you ROI-driven, conversion-focused, customer-centric website development service to...",
+    "image": "service-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Security Engineering",
+   "description": "Nextwebi, a leading web development company provides you ROI-driven, conversion-focused, customer-centric website development service to...",
+    "image": "service-1.png"
+  },
+  {
+    "id": 4,
+    "title": "Cloud & Hosting Services",
+   "description": "Nextwebi, a leading web development company provides you ROI-driven, conversion-focused, customer-centric website development service to...",
+    "image": "service-2.png"
+  },
+  {
+    "id": 5,
+    "title": "Testing & QA",
+   "description": "Nextwebi, a leading web development company provides you ROI-driven, conversion-focused, customer-centric website development service to...",
+    "image": "service-1.png"
+  }
+]

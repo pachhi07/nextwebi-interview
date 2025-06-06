@@ -1,0 +1,84 @@
+.wrapper {
+  padding: 30px 15px;
+  position: relative;
+  isolation: isolate;
+    /* padding: 30px 0px; */
+}
+.wrapper h5 {
+  text-align: center;
+}
+.wrapper h5 span {
+    color: var(--secondary);
+}
+.quality_alpha{
+      background-image: url(/assets/wychooseus/whychoose-banner.webp);
+     position: relative;
+  isolation: isolate; 
+    border-radius: 10px;
+}
+.quality_container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.quality_container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--white);
+  opacity: 0.5;
+  z-index: -1;
+}
+.quality_container p {
+  padding: 15px 0px;
+
+}
+.quality_container > div {
+  padding: 50px 0;
+}
+.quality_content {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-between;
+  padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+.quality_content > div {
+  width: 31%x;
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+}
+.quality_content > div:hover{
+    background-color: rgb(95,136,177);
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+    scale: 1.1;
+}
+.quality_image img {
+  position: absolute;
+  width: 30%;
+  top: 40px;
+  right: 90px;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .quality_container {
+    grid-template-columns: 100%;
+  }
+  .quality_content {
+    grid-template-columns: 100%;
+  }
+  .quality_content > div {
+    /* margin: 5px 0px; */
+  }
+  .quality_image img {
+    display: none;
+  }
+}

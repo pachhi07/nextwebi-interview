@@ -10,7 +10,7 @@ export default function Testimonials() {
   return (
     <section className={styles.wrapper} id="testimonials">
       <h5 className="firstTitle">
-        Our Client <span>tetsimonials</span>
+        Client <span>testimonials</span>
       </h5>
       <section className={styles.ourteam_container}>
         <section className={styles.ourteam_section}>

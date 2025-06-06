@@ -15,13 +15,14 @@
      position: relative;
   isolation: isolate; 
     border-radius: 10px;
+
 }
 .quality_container {
   display: grid;
   grid-template-columns: 55% 45%;
   justify-content: space-between;
   position: relative;
-  padding: 0px 10px;
+  padding: 0px 20px;
   border-radius: 10px;
 }
 .quality_container::before {
@@ -46,6 +47,8 @@
   padding: 30px 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border-radius: 10px;
+    /* border: 1px solid;
+    border-image: linear-gradient(to bottom, #c20c64, #320404 ) 1; */
 }
 .quality_content > div {
   width: 31%x;
